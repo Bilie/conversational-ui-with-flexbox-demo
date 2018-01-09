@@ -1,0 +1,19 @@
+{
+  "name": "chat-flexbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/Bilie/conversational-ui-with-flexbox-demo.git",
+    "type": "git"
+  },
+  "author": "Biliana Valeva <bilianavaleva@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.4.1"
+  },
+  "scripts": {
+  	"dev": "KEY=$KEY parcel index.html",
+  	"build": "KEY=$KEY parcel build index.html --public-url ./"
+  }
+}
