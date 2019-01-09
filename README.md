@@ -2,6 +2,8 @@
 
 Demo is [here](http://delicious-copper.surge.sh/)
 
+Related post is [here](https://bilianavaleva.com/conversational-ui-with-flexbox)
+
 ## Project Setup
 
 To install the project dependencies run:
