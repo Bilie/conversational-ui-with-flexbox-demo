@@ -9,7 +9,7 @@ Related post is [here](https://bilianavaleva.com/conversational-ui-with-flexbox)
 To install the project dependencies run:
 
 ```bash
-  yarn
+  npm install
 ```
 
 ## Dev server
@@ -17,7 +17,7 @@ To install the project dependencies run:
 To run dev server:
 
 ```bash
-  yarn run dev
+  npm run dev
 ```
 
 ## Build
@@ -25,7 +25,7 @@ To run dev server:
 In order to build the project:
 
 ```bash
-  yarn run build
+  npm run build
 ```
 
 Both dev server and build commands are using [parcel](https://github.com/parcel-bundler/parcel) in the background.
