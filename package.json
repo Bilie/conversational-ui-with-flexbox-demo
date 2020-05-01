@@ -9,11 +9,11 @@
   "author": "Biliana Valeva <bilianavaleva@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.7.2",
-    "parcel-bundler": "^1.4.1"
+    "node-sass": "^4.14.0",
+    "parcel-bundler": "^1.12.4"
   },
   "scripts": {
-  	"dev": "KEY=$KEY parcel index.html",
-  	"build": "KEY=$KEY parcel build index.html --public-url ./"
+    "dev": "KEY=e03cb49c66764867add13e6a1e5180c4 parcel index.html",
+    "build": "KEY=$KEY parcel build index.html --public-url ./"
   }
 }
