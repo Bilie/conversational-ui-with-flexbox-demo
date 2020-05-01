@@ -13,7 +13,7 @@
     "parcel-bundler": "^1.12.4"
   },
   "scripts": {
-    "dev": "KEY=e03cb49c66764867add13e6a1e5180c4 parcel index.html",
+    "dev": "KEY=$KEY parcel index.html",
     "build": "KEY=$KEY parcel build index.html --public-url ./"
   }
 }
