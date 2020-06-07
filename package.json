@@ -13,7 +13,13 @@
     "parcel-bundler": "^1.12.4"
   },
   "scripts": {
-    "dev": "KEY=$KEY parcel index.html",
-    "build": "KEY=$KEY parcel build index.html --public-url ./"
+    "dev": "parcel index.html --out-dir ../conversational-ui-with-flexbox-demo-nodejs/public",
+    "cleanup": "rm -rf ../conversational-ui-with-flexbox-demo-nodejs/public",
+    "setup": "mkdir -p ../conversational-ui-with-flexbox-demo-nodejs/public",
+    "build": "parcel build index.html --public-url ./ --out-dir ../conversational-ui-with-flexbox-demo-nodejs/public"
+  },
+  "dependencies": {
+    "ibm-watson": "^5.5.0",
+    "regenerator-runtime": "^0.13.5"
   }
 }
